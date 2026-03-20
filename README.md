@@ -222,7 +222,7 @@ Implements the Steepest Descent algorithm.
 
 The repository includes two example assessment sets:
 
-- Set_1.pdf
+- `Set_1.pdf`
 
 - `Set_2.pdf`
 
