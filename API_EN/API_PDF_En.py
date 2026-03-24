@@ -26,7 +26,7 @@ Text:
 """
 
 client = OpenAI(
-    api_key="enter your API key"
+    api_key="Enter your API key"
 )
 
 completion = client.chat.completions.create(
