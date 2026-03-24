@@ -253,4 +253,4 @@ These tools were used for:
 - The pipeline is model-agnostic and can be applied to different LLM backends for comparative evaluation.
 - In technical domains, strict correctness and adherence to formal definitions are critical, as even minor inaccuracies may lead to misconceptions.
 - Optional supplementary material (e.g., theory, notes, or definitions) can be provided to the model to improve conceptual grounding and output quality.
-- The three code implementations developed in the present study are provided in both Greek and English. This dual-language approach was adopted to enhance accessibility and usability, enabling users with different linguistic backgrounds to more easily understand, modify, and apply the code.
+- The three code implementations developed in the present study are provided in both Greek and English. This dual-language approach was adopted to enhance accessibility and usability, enabling users with different linguistic backgrounds to more easily understand, modify, and apply the code. Specifically, the Greek versions are located in the API_EL folder, while the English versions are available in the API_EN folder.
