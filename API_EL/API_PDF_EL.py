@@ -27,7 +27,7 @@ prompt = f"""
 """
 
 client = OpenAI(
-    api_key="enter your API key"
+    api_key="Εισάγετε το API key"
 )
 
 completion = client.chat.completions.create(
