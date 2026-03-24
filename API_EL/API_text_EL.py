@@ -1,7 +1,5 @@
 from openai import OpenAI
 
-
-
 client = OpenAI(
     api_key="enter your API key"
 )
