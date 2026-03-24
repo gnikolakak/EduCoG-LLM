@@ -38,7 +38,7 @@ def Parameters():
             c1 = float(input("1st) What is c1 so that the criterion |∇f| ≤ c1 can be examined? ")) 
             c2 = float(input("2nd) What is c2 so that the criterion |Xn - Xn-1| ≤ c2 can be examined? ")) 
             c3 = float(input("3rd) What is c3 so that the criterion |f(Xn) - f(Xn-1)| ≤ c3 can be examined? ")) 
-            return a, c1, c2, c3 # Returns a, c1, c2, c3
+            return a, c1, c2, c3 
 
         except ValueError: 
             print("Invalid input! Please enter valid numbers.") 
