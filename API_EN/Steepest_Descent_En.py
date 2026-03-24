@@ -1,6 +1,6 @@
 # The code creates the Steepest Descent algorithm to find the minimum of a function of two variables
 # The user enters the initial points, parameters and the function he wanted to examine
-# The algorithm calculates the derivatives and the slope of the function, updating the points at each step. 
+# The algorithm calculates the derivatives and the slope of the function, updating the points at each step
 # The process teminates:
 # 1) when one of the termination criteria is satisfied (before the maximum number of iterations is exceeded), then the results are displayed on the user's screen
 # 2) when the maximum number of iterations is exceeded, informing the user that the number of iterations has been exceeded without displaying the graphs
