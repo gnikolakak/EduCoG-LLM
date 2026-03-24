@@ -120,7 +120,7 @@ def steepest_descent(f_num, x0, y0, a, c1, c2, c3, derivative_x, derivative_y):
         tries += 1
     
     if tries > MAX_TRIES: 
-        criterion = f"Η αναζήτηση απέτυχε: μέγιστες επαναλήψεις ({MAX_TRIES})." 
+        criterion = f"Search failed: maximum number of iterations reached ({MAX_TRIES})." 
         return x0, y0, None, criterion, False, x_path, y_path, z_path, tries 
         
     return x0, y0, f_num(x0, y0), criterion, True, x_path, y_path, z_path, tries
