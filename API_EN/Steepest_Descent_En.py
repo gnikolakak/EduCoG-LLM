@@ -85,7 +85,6 @@ def steepest_descent(f_num, x0, y0, a, c1, c2, c3, derivative_x, derivative_y):
         grad_norm = sp.sqrt(slope_x**2 + slope_y**2)
 
     while tries <= MAX_TRIES:
-        # Calculating derivatives and gradients
         slope_x = derivative_x.subs({x: x0, y: y0}).evalf()
         slope_y = derivative_y.subs({x: x0, y: y0}).evalf()
         grad_norm = sp.sqrt(slope_x**2 + slope_y**2)
