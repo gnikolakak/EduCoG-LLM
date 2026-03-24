@@ -106,7 +106,7 @@ def steepest_descent(f_num, x0, y0, a, c1, c2, c3, derivative_x, derivative_y):
             f_prev = f_num(prev_x, prev_y) 
             f_current = f_num(x0, y0) 
 
-            if abs(f_current - f_prev) < c3: # abs(): Συνάρτηση απόλυτης τιμής
+            if abs(f_current - f_prev) < c3: 
                 criterion = "3ο κριτήριο: Η σύγκλιση της συνάρτησης είναι μικρή." 
                 break 
                 
